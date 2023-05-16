@@ -1,0 +1,250 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    height: 150vh;
+    overflow-x: hidden;
+}
+.text-box{
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    padding-top: 17%;
+}
+.navbar{
+    z-index: 999999;
+}
+.vh{
+    height: 15vh;
+}
+.dropdown-menu li {
+    position: relative;
+    }
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+.bg-home{
+    background-image: url(Images/Home/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-leaf{
+    background-color: #1e461b;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.bg-subscribe{
+    background-image: url(Images/Home/bg-sub.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 65%;
+}
+.bg-advice{
+    background-image: url(Images/Expert_Advice/Are-you-eating-for-energy-or-pleasure.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.footer{
+    background-color: #1e461b;
+    min-height: 60vh;
+}
+.footer-col ul li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #fff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+.copyright{
+	text-align: center;
+	font-size: 16px;
+	color: #bbb;
+}
+.edit{
+    font-size: large;
+}
+.carousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.carousel .carousel-indicators{
+    bottom: -50px;
+}
+.carousel .carousel-inner img{
+    border-radius: 100%;
+}
+.bgi{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bgin{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Cuisine{
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.bg-cuisine1{
+    background-image: url(Images/Cuisine/Chinese.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 300px;
+}
+.bg-cuisine2{
+    background-image: url(Images/Cuisine/Indian.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 300px;
+}
+.bg-cuisine3{
+    background-image: url(Images/Cuisine/Italian.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 300px;
+}
+.bg-cuisine4{
+    background-image: url(Images/Cuisine/Japan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 300px;
+}
+.bg-cuisine5{
+    background-image: url(Images/Cuisine/Myanmar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 300px;
+}
+.layer{
+	background: transparent;
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.layer:hover{
+	background: #1e461b;
+    opacity: 0.8;
+}
+.layer h3{
+	width: 100%;
+	font-weight: 500;
+	color: #fff;
+	font-size: 26px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s; 
+}
+.layer:hover h3{
+	bottom: 45%;
+	opacity: 1;
+}
+.profile-area{
+    padding: 80px 0;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socails i{
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
+}
